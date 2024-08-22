@@ -1,17 +1,17 @@
 @import url(./header.css);
 @import url(./body.css);
+@import url(./footer.css);
 *{
     margin: 0%;
     padding: 0px;
     box-sizing: border-box;
 }
 body{
-    background-color: var(--verdeclaro);
+    background-color: var(--azulclaro);
 }
 :root{
-    --verde: #66B032 ;
-    --verdebranco: #EBF7E3;
-    --verdeclaro:#9BD770;
-    --verdeescuro:#375F1B;
-    --verdepreto:#1B3409;
+   --azul:#7D91F7;
+   --branco: white;
+   --azulclaro:#DDE3FD;
+   --azulescuro: #0D1749;
 }

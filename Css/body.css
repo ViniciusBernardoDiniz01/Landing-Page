@@ -1,22 +1,21 @@
 .body{
     background-image: url("./Imagem/Microsoft.webp");
-    color: var(--verdeescuro);
+    color: var(--branco);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
-    
 
 }
 .form{
-    background-color: var(--verde);
+    background-color: var(--azul);
     border-radius: 10px;
-    color: var(--verdebranco);
+    color: var(--branco);
     order: -1;
     position: relative;
-    right: 90px;
+    left: 50px;
     padding: 10px;
     margin: 20px;
+    box-shadow: 0 0 15px 0 black;
 }
 input{
     border: hidden;
@@ -25,21 +24,34 @@ textarea{
     border: hidden;
 }
 button{
-    color: var(--verdeclaro);
-    background-color: var(--verdeescuro);
-    border: hidden;
+    color: var(--azulclaro);
+    background-color: var(--azul);
     margin-top: 10px;
     width: 163px;
     height: 30px;
     font-size: large;
     cursor: pointer;
+    border-radius: 10px;
+    border-color: var(--azul);
+    
 }
 #img{
     position: relative;
-    right: ;
+    left: 150px;
+    top: 50px;
+    box-shadow: 0 0 10px 0 black;
     
 }
+#img{
+    border-style: solid;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-image: url(http://127.0.0.1:5500/Imagem/imagem%20mulher.png);
+    width: 1000;
+    height: 600;
+}
 h3{
-    font-size: x-large;
+    font-size: 24px;
+
 }
 
