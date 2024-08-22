@@ -1,5 +1,28 @@
+
 header{
+    background-color: var(--verde);
+    margin: 2px;
+    border-radius: 15px;
     display: flex;
-    background-color: --verde;
+    justify-content: center;
+    font-size: medium;
+    opacity: 0.9;
+}
+.imagem{
+    margin:4px;
+    display: flex;
     align-items: center;
+    position: relative;
+    right: 500px;
+}
+.text{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.cor{
+    color: var(--verdeclaro);
+}
+.cor2{
+    color: var(--verdeescuro);
 }

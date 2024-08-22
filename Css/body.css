@@ -1,0 +1,45 @@
+.body{
+    background-image: url("./Imagem/Microsoft.webp");
+    color: var(--verdeescuro);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+
+}
+.form{
+    background-color: var(--verde);
+    border-radius: 10px;
+    color: var(--verdebranco);
+    order: -1;
+    position: relative;
+    right: 90px;
+    padding: 10px;
+    margin: 20px;
+}
+input{
+    border: hidden;
+}
+textarea{
+    border: hidden;
+}
+button{
+    color: var(--verdeclaro);
+    background-color: var(--verdeescuro);
+    border: hidden;
+    margin-top: 10px;
+    width: 163px;
+    height: 30px;
+    font-size: large;
+    cursor: pointer;
+}
+#img{
+    position: relative;
+    right: ;
+    
+}
+h3{
+    font-size: x-large;
+}
+
